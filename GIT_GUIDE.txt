@@ -1,0 +1,8 @@
+# Open terminal in your project folder
+git init
+git add .
+git commit -m "Initial commit"
+# Replace the URL with your GitHub repository URL
+git remote add origin https://github.com/yourusername/yourrepository.git
+# Change "master" to "main" if required
+git push -u origin master
